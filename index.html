@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winnie Nyambura | Full-Stack Developer</title>
+    <meta name="description" content="Portfolio of Winnie Nyambura, a Full-Stack JavaScript Developer based in Nairobi, Kenya.">
+    <!-- Google Fonts: Outfit for headings, Inter for body text, Fira Code for tech stack tags -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Winnie<span class="highlight">.dev</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact" class="btn-outline">Let's Talk</a></li>
+            </ul>
+            <div class="mobile-menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero container">
+            <div class="hero-content slide-up">
+                <span class="badge">Nairobi, Kenya 🇰🇪</span>
+                <h1>Engineering digital solutions that <span class="text-gradient">matter</span>.</h1>
+                <h2 class="typing-container"><span class="typing-text"></span><span class="cursor">|</span></h2>
+                <p class="hero-desc">
+                    I build accessible, high-performance web applications from end to end. With a focus on the MERN stack, I bridge the gap between elegant front-end interfaces and robust back-end APIs.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <div class="glass-panel profile-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">12</span>
+                        <span class="stat-label">Weeks Training</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-label">Projects Built</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Commitment</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about container section-padding">
+            <h2 class="section-title fade-in">Who I Am</h2>
+            <div class="about-grid">
+                <div class="about-text slide-up">
+                    <p>I am a developer who understands the complete picture. Having gone through an intensive 12-week development boot camp, I transitioned from learning the basics to architecting multi-tier, database-connected applications.</p>
+                    <p>My passion lies in creating technology that addresses real challenges. A prime example is the <strong>Community Hub</strong> platform I co-developed alongside my peers to amplify the voices of Kenyan citizens on critical neighborhood issues.</p>
+                    <ul class="core-values">
+                        <li><i class="fa-solid fa-code"></i> Writing clean, scalable, and documented code</li>
+                        <li><i class="fa-solid fa-users"></i> Thriving in collaborative, Git-driven environments</li>
+                        <li><i class="fa-solid fa-lightbulb"></i> Prioritizing UX alongside technical logic</li>
+                    </ul>
+                </div>
+                <div class="about-facts glass-card fade-in">
+                    <h3>Quick Facts</h3>
+                    <ul class="fact-list">
+                        <li><strong>Location:</strong> Nairobi, Kenya</li>
+                        <li><strong>Focus:</strong> Full-Stack JavaScript</li>
+                        <li><strong>Status:</strong> Open to Roles</li>
+                        <li><strong>Stack:</strong> MERN (MongoDB, Express, React, Node)</li>
+                        <li><strong>Work Type:</strong> Remote / Hybrid</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills container section-padding">
+            <h2 class="section-title fade-in">My Toolkit</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card slide-up">
+                    <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                    <h3>Front-End</h3>
+                    <div class="tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript (ES6+)</span>
+                        <span>React.js</span>
+                        <span>DOM Manipulation</span>
+                        <span>Responsive Design</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card slide-up" style="transition-delay: 0.1s;">
+                    <div class="skill-icon"><i class="fa-brands fa-node-js"></i></div>
+                    <h3>Back-End</h3>
+                    <div class="tags">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>REST APIs</span>
+                        <span>Authentication</span>
+                        <span>Middleware</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card slide-up" style="transition-delay: 0.2s;">
+                    <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                    <h3>Database & Tools</h3>
+                    <div class="tags">
+                        <span>MongoDB</span>
+                        <span>Mongoose</span>
+                        <span>Git & GitHub</span>
+                        <span>Postman</span>
+                        <span>Linux CLI</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects container section-padding">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Capstone Project -->
+                <div class="project-card glass-card featured slide-up">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-type"><i class="fa-solid fa-users"></i> Group Capstone Project</span>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+                                <a href="#" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Community Hub Platform</h3>
+                        <p class="project-desc">
+                            A centralized platform built for Kenyan communities to report and track neighborhood issues like infrastructure failures and security incidents. Built over a 3-week sprint with a team of 4 developers to bridge the gap between citizens and local authorities.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Built the Express.js REST API and MongoDB schema.</li>
+                            <li>Engineered the report submission workflow with client-side validation.</li>
+                            <li>Managed Git collaboration and code reviews.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Standard Projects -->
+                <div class="project-card glass-card slide-up">
+                    <div class="project-header">
+                        <span class="project-type">Full-Stack App</span>
+                        <div class="project-links">
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Task Manager API</h3>
+                    <p class="project-desc">A complete CRUD application with a Node.js/Express API, MongoDB persistence, and a vanilla JS front-end. Features custom authentication middleware.</p>
+                    <div class="tech-stack">
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Vanilla JS</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card slide-up">
+                    <div class="project-header">
+                        <span class="project-type">API Integration</span>
+                        <div class="project-links">
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Dynamic Weather Dashboard</h3>
+                    <p class="project-desc">A real-time weather tracking application utilizing async/await and the Fetch API to consume third-party data, with graceful error handling.</p>
+                    <div class="tech-stack">
+                        <span>JavaScript</span>
+                        <span>Fetch API</span>
+                        <span>CSS Grid</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card slide-up">
+                    <div class="project-header">
+                        <span class="project-type">Front-End UI</span>
+                        <div class="project-links">
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">E-Commerce Landing</h3>
+                    <p class="project-desc">A pixel-perfect, mobile-first responsive landing page showcasing advanced CSS Grid, Flexbox, and custom animations without any frameworks.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact container section-padding">
+            <div class="contact-box glass-card fade-in">
+                <h2>Let's Build Something Together</h2>
+                <p>I'm currently seeking junior to mid-level developer roles. Whether you're a recruiter, founder, or fellow dev, I'd love to connect!</p>
+                <div class="contact-links">
+                    <a href="mailto:winnie.nyambura@example.com" class="contact-btn">
+                        <i class="fa-solid fa-envelope"></i> Email Me
+                    </a>
+                    <a href="https://github.com" target="_blank" class="contact-btn">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="contact-btn">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Winnie Nyambura. Built with code and care.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
